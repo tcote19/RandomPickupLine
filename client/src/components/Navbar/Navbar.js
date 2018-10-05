@@ -13,17 +13,17 @@ class Navbar extends Component {
 	render(){
 		return (
 		<div>
-			<div className="navbar-fixed">
+			<div className="navbar-fixed" id="navbar-main">
 				<nav className="black darken-4">
 					<div className="container">
 						<div className="nav-wrapper">
-							<a href="#home" className="brand-logo">JP</a>
+							<a href="#home" className="brand-logo">line ^</a>
 							<a href="#" data-target="mobile-nav" className="sidenav-trigger">
 								<i className="material-icons">menu</i>
 							</a>
 							<ul className="right hide-on-med-and-down">
 								<li>
-									<a href="#home">Home</a>
+									<a href="#science">Science</a>
 								</li>
 								<li>
 									<a href="#technologies">Technologies</a>

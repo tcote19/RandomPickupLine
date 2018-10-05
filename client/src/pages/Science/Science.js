@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Main from "../../components/Main";
-// import LoginRegister from "../../components/LoginRegister";
+
 import FBLogin from "../../components/FBLogin";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
@@ -20,9 +20,8 @@ class Home extends Component {
 		return (
 			<div>
 				<Navbar />
-
 				<div className="container">
-					<FBLogin />
+
 				</div>
 				<Main />
 
