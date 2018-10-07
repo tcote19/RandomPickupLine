@@ -5,7 +5,7 @@ class Footer extends Component {
 	render(){
 		return(
 			<footer className="section black darken-4 white-text center">
-				<p className="flow-text">line ^ &copy; Forever </p>
+				<p className="flow-text">Line ^ &copy; Forever </p>
 			</footer>
 		)
 	}
